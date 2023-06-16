@@ -1,0 +1,56 @@
+body{
+    background-image: url("picture.jpg");
+    text-align: center;
+    font-size: 27px;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding-top: 30px;
+  text-align: center;
+  font-family: Calisto MT;
+    color: #f2eded;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+  
+  h2 {
+    color: #f7f3f3;
+  }
+  
+  #timerDisplay,
+  #stopwatchDisplay {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  #timerDisplay, #stopwatchDisplay{
+    color: #fff;
+  }
